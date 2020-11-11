@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello Everybody!.</title>
+        <link rel="stylesheet" href="Hello.css">
+        <script src="Hello.js">
+
+        </script>
+    </head>
+
+    <body>
+        
+            <h1 id="title">Mysterious Web page.</h1>
+        
+
+        <div>
+            <h2>To do</h2>
+        <ol>
+            <li>Breakfast
+                <br>
+                Food:
+                <ul>
+                    <li>Jam</li>
+                    <li>Ham</li>
+                    <li>Burger</li>
+                </ul>
+            </li>
+
+            <li>Running</li>
+        </ol>
+        </div>
+        
+        <div>
+            <h2>Check out some links here!</h2>
+        <a href="https://www.microsoft.com/en-us/"><img src="https://c4.wallpaperflare.com/wallpaper/964/196/871/windows10-dark-gradient-minimalism-wallpaper-preview.jpg" alt="windows10 wp" width="40%"></a>
+        <br>
+        <a href="lecture0.pdf">pdf</a><br>
+        <a href="https:google.com">Google</a><br>
+        <a href="https://www.edx.org/">edX</a><br>
+        <button id="edxbutton" onclick="toLink('https://www.edx.org/')">Learn HTML and CSS with professional experts</button>
+        </div>
+
+        <h2 id="goo">Here is a table below!</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Playing Style</th>
+                    <th>Nationality</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fan Zhendong</td>
+                    <td>Attack</td>
+                    <td>China</td>
+                </tr>
+                <tr>
+                    <td>Malong</td>
+                    <td>Attack</td>
+                    <td>China</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Here are some countries</h2>
+        <div id="grid">
+            <div class="grid-item">China</div>
+            <div class="grid-item">Spain</div>
+            <div class="grid-item">US</div>
+            <div class="grid-item">UK</div>
+            <div class="grid-item">Germany</div>
+            <div class="grid-item">Austria</div>
+
+        </div>
+
+        <div id="git">
+            <h2>Checkout some git commands here!</h2>
+            <ul>
+                <li>git clone <repository url>-clones the repository folder to your computer.</li>
+                <li>ls-see the files in the repository</li>
+                <li>git add <file name>-adds a file in the repository folder to the repository</li>
+                <li>git push-sync all the local changes you’ve made to github.com</li>
+                <li>git pull- sync all the online github.com changes to your local files.</li>
+                <li>git commit -m “message”  -save your changes to the local repository.</li>
+                <li>git reset --hard <commit>-goes back to the previous versions</li>
+                <li>git reset --hard origin/master-</li>
+                <li>git branch-see the current branch</li>
+                <li>git checkout -b branch-create and switch to a new branch</li>
+                <li>git checkout branch-switch to an existing branch</li>
+                <li>git merge branch-merge the current branch with another branch</li>
+                <li>git log-shows a list of history versions</li>
+            </ul>
+        </div>
+
+        <div id="sparetime">
+            <h2>Spend your spare time here</h2><br>
+            <h3>Counter</h3>
+            <button class="nonStyleButton" id="count">+1</button><br><br>
+            <button class="countdisplaychange" data-color="blue" style="background-color: skyblue;">Blue</button><br><br>
+            <button class="countdisplaychange" data-color="red" style="background-color: red;">Red</button><br><br>
+            <button class="countdisplaychange" data-color="green" style="background-color: green;">Green</button><br><br>
+
+
+            <h1 id="ctbutton" style="color:black; font-size:50px; background-color:antiquewhite;">counter</h1>
+        </div>
+        
+
+        <div id="in.v">
+            <input type="text" value="cd 'Tim Coding'/'HTML and CSS'/Git/hello" id="path">
+            <button class="nonStyleButton" id="copyButton">Copy</button>
+        </div>
+        
+        
+        <div id="su">
+            <h2>Tell us more about you</h2>
+
+            <form id="signup"> 
+                <input type="text" placeholder="Name" id="name">
+                <input type="text" placeholder="Account(email adress)" id="account"><br>
+                <input type="password" placeholder="Password" id="password"><br>
+                
+                <input type="submit" class="nonStyleButton">
+            </form>
+        </div>
+    </body>
+</html>
