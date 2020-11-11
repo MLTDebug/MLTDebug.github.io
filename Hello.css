@@ -1,0 +1,126 @@
+h2 {
+    text-align:center;
+    color:darkblue;
+    background:forestgreen;
+    margin:0px;
+    font-family:'Times New Roman', Times, serif;
+}
+#title {
+    margin:10px;
+    text-align:center;
+    padding: 10px;
+    background: linear-gradient(black,gray);
+    color: skyblue;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 4px;
+    border-color: aliceblue;
+    
+}
+body {
+    background: antiquewhite;
+    font-family: Arial;
+}
+table {
+    border: solid black 1px;
+    border-collapse: collapse;
+    
+}
+td, th {
+    border: solid black 1px;
+    padding: 10px;
+}
+#goo {
+    color:black;
+}
+ul > li {
+    color: salmon;
+}
+a {
+    color: blue;
+}
+a[href="https://www.edx.org/"]{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+#edxbutton {
+    text-align:center;
+    font-size: 25px;
+    background-color:orange;
+    color: black;
+    border-radius: 7px;
+}
+#edxbutton:hover{
+    background-color: greenyellow;
+    border-radius: 7px;
+}
+#grid {
+    background-color: antiquewhite;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    grid-template-columns: 100px 100px auto;
+    padding: 5px;
+}
+.grid-item{
+    font-size: 20px;
+    text-align: center;
+    background-color: skyblue;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  .nonStyleButton {
+    background: linear-gradient(to top right, red, orange);
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: solid black 5px;
+    border-radius: 3px;
+  }
+  .nonStyleButton:hover{
+      width: 120px;
+      height: 60px;
+      border-width: 4px;
+      font-size: 25px;
+      background: linear-gradient(to top right, red, orange)
+  }
